@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Responsive - Index</title>
+	<title>Richard Kearse</title>
 	<!-- Linking CSS Reset -->
     <link rel="stylesheet" type="text/css" href="assets\css\reset.css">
 	<!-- Linking Bootstrap -->
@@ -9,14 +9,39 @@
     <!-- Linking CSS -->
 	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--=================================particles.js CDN==================================================-->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.js"></script>
+	<script src="assets/javascript/particles.js"></script>
+	<!--NEW STUFF-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--===============================JQUERY.MIN CDN===========================================================-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--=================================particles.js CDN==================================================-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.js"></script>
+    <script src="assets/javascript/particles.js"></script>
 </head>
 <body>
 
 <!--HEADER-->
+<!--======================PARTICLE.JS============================-->
+<div id="particles-js" width="100%" height="100%">
+	<canvas class="particles-js-canvas-el" width="1583" height="497" style="width: 100%; height: 100%;"></canvas>
+</div>
 <header> 
 	<div class="masthead-nav">
 		<div>
-		  <a  href="index.html" id="logo">Richard Kearse</a>
+		  <a  href="index.html" class="logo">Richard Kearse</a></br>
+		  <div class="link-buttons">
+			<a href="https://www.linkedin.com/in/richard-kearse/" target="_blank">
+				<img src="assets/images/linkedin.png" alt="LinkedIn" style="width:42px;height:42px;border:0;">
+			</a>
+			<a href="https://github.com/Bangarng" target="_blank">
+				<img src="assets/images/github.png" alt="GitHub" style="width:42px;height:42px;border:0;">
+			</a>
+			<a href="assets/items/Richard_S. _Kearse_June_2018.pdf" target="_blank">
+				<img src="assets/images/resume.png" alt="GitHub" style="width:35px;height:42px;border:0; margin-left:4px;">
+			</a>
+		  </div>
 		  <nav class="nav-desktop">
 			<a href="index.html">About</a>
 			<a href="portfolio.html">Portfolio</a>
@@ -44,15 +69,11 @@
 		<div class="about-info">
 			<p>Richard Kearse is a Senior SharePoint Developer with over 9 years experience in Information Technology</p>
 			<p>When not working on code, Richard likes to work on his 'friend' Dickie Stevens comic strip, Boloney Time Machine, which is about two superheroes who have the potential to be epic, but half the drive to do it.</p>
-			<p>When not partaking in world domination, Richard like to spend time with his dogs Zoey and Mollie, and wife Lizzy. </p>
+			<p>When not partaking in world domination, Richard likes to spend time with his dogs Zoey and Mollie, and wife Lizzy. </p>
 		</div>
 	</div>
 </main>
-<!--FOOTER-->
-<footer class="footer">
-	<div>
-		Copyright &copy;
-	</div>
-</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/portfolio.js"></script>
 </body>
 </html>
